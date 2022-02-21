@@ -7,18 +7,17 @@ def long_description():
 setup(
     name='polymedia',
     packages=find_packages(include=['polymedia']),
-    version='0.1.9',
+    version='0.2.0',
     author='Michal Poreba',
     license='MIT',
     description='A polyglot hypermedia library for python ReSTful services',
     long_description=long_description(),
     long_description_content_type='text/markdown',
-    url='https://github.com/michalporeba/odis/packages/polymedia',
+    url='https://github.com/michalporeba/polymedia',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-        'Framework :: Django :: 4.0',
         'Intended Audience :: Developers',
         'Topic :: Software Development'
     ],
